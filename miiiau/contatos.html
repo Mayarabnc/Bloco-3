@@ -62,7 +62,7 @@
     <div class="alinhar" >
 
         <div class="form-group lado" style="float: left;">
-            <img src="https://i.pinimg.com/originals/72/77/19/72771935f70719c9d006e4c3f1a8320a.gif">
+            <img src="https://i.pinimg.com/originals/72/77/19/72771935f70719c9d006e4c3f1a8320a.gif" onmousemove="gatoZoom()" onmouseout="gatoNormal()" id="gato">
         </div>
 
         <div class="form-group margemEsquerda margemDireita margem">
@@ -74,22 +74,24 @@
 
         <div class="form-group margemEsquerda margemDireita">
             <label class="quebraLinha" for="exampleFormControlInput1">Email</label>
-            <textarea name="Assunto" onkeyup="validarEmail()" id="exampleFormControlInput1" placeholder="name@example.com" cols="60" rows="1"></textarea>
+            <textarea type="text" onkeyup="validarEmail()" id="email" placeholder="name@example.com" cols="60" rows="1"></textarea>
+            <div id="txtEmail"></div>
         </div>
 
-
+        
 
         <div class="form-group margemEsquerda margemDireita">
             <label class="quebraLinha" for="exampleFormControlTextarea1">Assunto</label>
-            <textarea name="Assunto" onkeyup="validarAssunto()" id="exampleFormControlTextarea1"
+            <textarea name="Assunto" onkeyup="validarAssunto()" id="assunto"
                 placeholder="Miau miau miiiiau miau miiiau miiiau : ) ronronronroooon" cols="60" rows="5"></textarea>
+                <div id="txtAssunto"></div>
     
                 <div class="alinhar">
-                    <button type="submit" onkeyup="enviar()" class="btn btn-primary" >Enviar</button>
+                    <button type="submit" class="btn btn-primary" onclick="enviar()" >Enviar</button>
                 </div>
                
         </div>
-   
+     
     </div>
 
     

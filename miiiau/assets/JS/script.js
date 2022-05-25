@@ -3,14 +3,12 @@ var nome = window.document.querySelector("#nome");
 var nomeOk = false
 var emailOk = false
 var assuntoOk = false
-var mapa = document.querySelector("#mapa")
+var mapa = document.querySelector("#gato")
 var email = document.querySelector("#email");
 
 var assunto = document.querySelector("#assunto");
 
 
-email.style.width ="100%";
-assunto.style.width = "100%";
 
 function validarNome(){
 
@@ -93,14 +91,14 @@ function validarNome(){
 
  function gatoZoom(){
 
-    mapa.style.width= "800px"
-    mapa.style.height= "600px"
+    mapa.style.width= "960px"
+    mapa.style.height= "1221px"
 
   }
 
   function gatoNormal(){
 
-    mapa.style.width= "600px"
-    mapa.style.height= "450px"
+    mapa.style.width= "320px"
+    mapa.style.height= "407px"
 
   }
