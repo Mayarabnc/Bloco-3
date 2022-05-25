@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,9 +12,10 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
         integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
 </head>
+
 <body>
     <!--Cabeçalho-->
-    <nav class="navbar navbar-expand-lg navbar-light" id="menu">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="menu">
         <a class="navbar-brand" href="#">Miiiau</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -48,49 +50,66 @@
         </div>
     </nav>
     <!--Cabeçalho-->
-<!--pedeir mensagem-->
-  <h1 class="h1Titulo"> (: Entrrrre em Contauto comigo :) </h1>
-        
+    <!--pedeir mensagem-->
+    <h1 class="h1Titulo"> (: Entrrrre em Contauto comigo :) </h1>
+
+
+    <!--pedeir mensagem-->
+
+
+    <!--formulario-->
+
+    <div class="alinhar" >
+
+        <div class="form-group lado" style="float: left;">
+            <img src="https://i.pinimg.com/originals/72/77/19/72771935f70719c9d006e4c3f1a8320a.gif">
+        </div>
+
+        <div class="form-group margemEsquerda margemDireita margem">
+            <label class="quebraLinha" for="nome">Nome:</label>
+            <textarea type="text" onkeyup="validarNome()" id="nome" placeholder="Miaura Cabrrrral" cols="60"
+                rows="1"></textarea>
+            <div id="txtNome"></div>
+        </div>
+
+        <div class="form-group margemEsquerda margemDireita">
+            <label class="quebraLinha" for="exampleFormControlInput1">Email</label>
+            <textarea name="Assunto" onkeyup="validarEmail()" id="exampleFormControlInput1" placeholder="name@example.com" cols="60" rows="1"></textarea>
+        </div>
+
+
+
+        <div class="form-group margemEsquerda margemDireita">
+            <label class="quebraLinha" for="exampleFormControlTextarea1">Assunto</label>
+            <textarea name="Assunto" onkeyup="validarAssunto()" id="exampleFormControlTextarea1"
+                placeholder="Miau miau miiiiau miau miiiau miiiau : ) ronronronroooon" cols="60" rows="5"></textarea>
     
-<!--pedeir mensagem-->
-
-
-<!--formulario-->
-
-<form>
-    <div cols="6">
-    <div class="form-group margemEsquerda margem" >
-      <label class="quebraLinha" for="exampleFormControlInput1">Email</label>
-      <textarea name="Assunto" id="exampleFormControlInput1" placeholder="name@example.com" cols="60" rows="1"></textarea>
-    </div>
-
-    <div class="form-group margemEsquerda">
-        <label class="quebraLinha" for="nome">Nome:</label> 
-                <textarea type="text" onkeyup="validarNome()" id="nome" placeholder="Miaura Cabrrrral" cols="60" rows="1"></textarea>
-                <div id = "txtNome"></div>
-    </div>
+                <div class="alinhar">
+                    <button type="submit" onkeyup="enviar()" class="btn btn-primary" >Enviar</button>
+                </div>
+               
+        </div>
    
-    <div class="form-group margemEsquerda">
-      <label class="quebraLinha" for="exampleFormControlTextarea1">Assunto</label>
-      <textarea name="Assunto" id="exampleFormControlTextarea1" placeholder="Miau miau miiiiau miau miiiau miiiau : ) ronronronroooon" cols="60" rows="5"></textarea>
     </div>
 
-    <img class="textlado" src="https://i.pinimg.com/originals/72/77/19/72771935f70719c9d006e4c3f1a8320a.gif">
     
-</div>
+    </form>
+
+    <!--formulario-->
 
 
 
-    
-  </form>
+    <script src="assets/JS/script.js"></script>
 
-<!--formulario-->
-
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+        integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
