@@ -1,72 +1,95 @@
-.h1Branco{
-    text-align : center;
+.h1Branco {
+    text-align: center;
     padding-top: 50px;
     color: rgb(230, 230, 230);
     margin: none;
 }
 
-.centro{
+.h1Titulo {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px
+}
+
+.centro {
     text-align: center;
     padding: 30px;
     color: black;
-                /*deixa a letra em negrito*/
+    /*deixa a letra em negrito*/
     font-weight: bold;
 }
 
-#menu{
-    background-color: rgb(7, 230, 211) !important;
-}
 
-.menu0{
+#menu {
+    background-color: rgb(7, 230, 211) !important;
+    padding-top: 10px;
     position: fixed;
     top: 5%;
     width:100%;
     margin-top: -2.9em;
 }
 
-#div1{
-    background-color: rgb(41, 41, 41) !important;
-    width: 100%;
-    margin: none;
-}
+.textcarr {
 
-.textcarr{
-
-    color: rgb(192, 4, 4) ;
+    color: rgb(192, 4, 4);
 
 }
 
-.margem{
+.margemEsquerda {
+
+    margin-left: 100px;
+    ;
+
+}
+
+.margem {
     margin-top: 50px;
 }
 
-.video{
+.video {
     margin-top: 200px;
     display: flex;
     width: 100%;
     justify-content: center;
 }
 
-.fundo{
+.fundo {
     background-color: rgb(7, 230, 211);
 }
+
+body{
+    padding-top: 47px;
+}
+
 
 /*CSS do card de miuterias*/
 
 #header {
-    background: url(https://images.unsplash.com/photo-1415795854641-f4a487a0fdc8?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80) center center / cover no-repeat ;
-  }
+    background: url(https://images.unsplash.com/photo-1415795854641-f4a487a0fdc8?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80) center center / cover no-repeat;
+}
 
-  .fundoCinza{
+.fundoCinza {
     background-color: rgb(116, 116, 116)
 }
 
-.letraBranca{
-    color:rgb(207, 207, 207)
+.letraBranca {
+    color: rgb(207, 207, 207)
 }
 
-.letraAv{
+.letraAv {
     color: rgb(7, 230, 211);
+}
+
+
+.textlado {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    margin: 40px;
+}
+
+.quebraLinha {
+    display: block;
 }
 
 /*CSS do card de miuterias*/
