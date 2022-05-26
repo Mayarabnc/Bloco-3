@@ -102,3 +102,7 @@ function validarNome(){
     mapa.style.height= "407px"
 
   }
+
+  /*pesquisa*/
+  
+  /*pesquisa*/

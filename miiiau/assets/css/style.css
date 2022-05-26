@@ -5,6 +5,13 @@
     margin: none;
 }
 
+.h3Branco {
+    text-align: center;
+    padding-top: 10px;
+    color: rgb(230, 230, 230);
+    margin: none;
+}
+
 .h1Titulo {
     text-align: center;
     margin-top: 40px;
@@ -25,7 +32,7 @@
     padding-top: 10px;
     position: fixed;
     top: 5%;
-    width:100%;
+    width: 100%;
     margin-top: -2.9em;
 }
 
@@ -35,7 +42,7 @@
 
 }
 
-.margemDireita{
+.margemDireita {
 
     margin-right: 70px;
 
@@ -62,11 +69,11 @@
     background-color: rgb(7, 230, 211);
 }
 
-body{
+body {
     padding-top: 47px;
 }
 
-#div1{
+#div1 {
     background-color: rgb(22, 22, 22) !important;
 }
 
@@ -100,19 +107,23 @@ body{
     display: block;
 }
 
+.midiaR {
+    width: 100%;
+}
+
 /*CSS do card de miuterias*/
 
 
 /*CSS contatos*/
-.alinhar{
-    align-items: center;
-}
-
-.cn{
+.alinhar {
     text-align: center;
 }
 
-.lado{
+.cn {
+    text-align: center;
+}
+
+.lado {
     display: flex;
     flex-flow: row;
     justify-content: flex-end;
@@ -121,4 +132,49 @@ body{
     margin-right: 100px;
 
 }
+
 /*CSS contatos*/
+
+
+/*As miauravilhas da vida*/
+
+.text {
+
+    color: black;
+    font-size: 30px;
+    margin: 15px;
+}
+
+.margemEsquerdaM {
+
+    align-items: center;
+
+}
+
+/*As miauravilhas da vida*/
+
+/*responsividade*/
+
+.respon {
+    min-width: 320px;
+    width: 1440px;
+    margin: auto;
+}
+
+.img {
+    width: 100%;
+}
+
+.imgcentro {
+    margin: 50px;
+}
+
+/*responsividade*/
+
+/*Autor*/
+
+.imgRedonda{
+    border-radius: 50%;
+}
+
+/*Autor*/
