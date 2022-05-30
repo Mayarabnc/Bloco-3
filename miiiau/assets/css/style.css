@@ -179,3 +179,8 @@ body {
 
 /*Autor*/
 
+#imgback{
+    background-position: center;
+    background-repeat: repeat; 
+
+}
