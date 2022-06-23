@@ -1,1 +1,4 @@
+ng serve nomeDoProjeto --> cria um novo projeto em angular
+npm i --> baixa as dependências do projeto
 ng g c nomeDoComponente --> gera um componente.
+ng serve --> Usado para rodar a aplicação
